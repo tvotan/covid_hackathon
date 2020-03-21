@@ -70,19 +70,19 @@ class _MyHomePageState extends State<MyHomePage> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: <Widget>[
                 Text(
-                  'Finde',
+                  'Finde deine',
                   style: TextStyle(
                       fontFamily: 'Opensans',
                       fontSize: 30.0,
                   ),
                 ),
-                Text(
-                  'deine',
-                  style: TextStyle(
-                    fontFamily: 'Opensans',
-                    fontSize: 30.0,
-                  ),
-                ),
+                //Text(
+                  //'deine',
+                  //style: TextStyle(
+                    //fontFamily: 'Opensans',
+                    //fontSize: 30.0,
+                  //),
+                //),
                 Text(
                   'Challenge',
                   style: TextStyle(
