@@ -52,13 +52,13 @@ class _MyHomePageState extends State<MyHomePage> {
                             fontSize: 50.0, fontWeight: FontWeight.bold)),
                   ),
                   Container(
-                    padding: EdgeInsets.fromLTRB(175.0, 175.0, 0.0, 0.0),
+                    padding: EdgeInsets.fromLTRB(175.0, 170.0, 0.0, 0.0),
                     child: Text('.',
                         style: TextStyle(
                             fontSize: 70.0,
                             fontWeight: FontWeight.bold,
                             color: Colors.red)),
-                  )
+                  ),
                 ],
               ),
             ),
@@ -83,9 +83,9 @@ class _MyHomePageState extends State<MyHomePage> {
                           labelStyle: TextStyle(
                               fontFamily: 'Montserrat',
                               fontWeight: FontWeight.bold,
-                              color: Colors.red),
+                              color: Colors.grey),
                           focusedBorder: UnderlineInputBorder(
-                              borderSide: BorderSide(color: Colors.red))),
+                              borderSide: BorderSide(color: Colors.grey))),
                       obscureText: true,
                     ),
                     SizedBox(height: 5.0),
