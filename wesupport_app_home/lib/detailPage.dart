@@ -152,7 +152,7 @@ class _DetailPageState extends State<DetailPage> {
                     ),
                     SizedBox(width: 10.0),
                     Text(
-                    'More',
+                    'Mehr',
                     style:
                         TextStyle(color: Color(0xFF6A6A6A), fontFamily: 'Opensans', fontWeight: FontWeight.w600),
                   ),

@@ -100,7 +100,7 @@ class _MyHomePageState extends State<MyHomePage> {
               padding: EdgeInsets.only(left: 20.0),
               height: 70.0,
               decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(15.0),
+                  borderRadius: BorderRadius.circular(10.0),
                   color: Color(0xFFF9F9F9)),
               child: Center(
                 child: TextField(
@@ -140,7 +140,7 @@ class _MyHomePageState extends State<MyHomePage> {
           Padding(
             padding: const EdgeInsets.only(left: 15.0),
             child: Container(
-              height: 300.0,
+              height: 250.0,
               child: ListView(
                 scrollDirection: Axis.horizontal,
                 children: <Widget>[
@@ -209,7 +209,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     ),
                     SizedBox(width: 50.0),
                     Text(
-                      'More',
+                      'Mehr',
                       style: TextStyle(
                           color: Colors.white, fontFamily: 'Opensans'),
                     ),
