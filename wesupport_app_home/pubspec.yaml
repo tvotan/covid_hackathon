@@ -26,6 +26,11 @@ flutter:
    - assets/kathmandu.jpg
    - assets/mountain.jpg
    - assets/profil.jpeg
+   - assets/pic_4.jpg
+   - assets/virtual_coach.jpeg
+   - assets/esport.png
+   - assets/etricks.jpg
+   - assets/etricks_2.jpg
   #  - images/a_dot_ham.jpeg
 
   fonts:

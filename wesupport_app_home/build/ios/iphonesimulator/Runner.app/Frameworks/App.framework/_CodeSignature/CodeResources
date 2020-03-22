@@ -10,7 +10,7 @@
 		</data>
 		<key>flutter_assets/AssetManifest.json</key>
 		<data>
-		fiMCTgH/dq/YxwdoESo6WhxDVv0=
+		FdVysm1SH/bAbFGzlfL8hz6hVic=
 		</data>
 		<key>flutter_assets/FontManifest.json</key>
 		<data>
@@ -24,6 +24,18 @@
 		<data>
 		ur6NzpOj5ItsPHlyCgwEjojdH+c=
 		</data>
+		<key>flutter_assets/assets/esport.png</key>
+		<data>
+		2pCZ27bnOZl4vKJaERBE5KG1M/4=
+		</data>
+		<key>flutter_assets/assets/etricks.jpg</key>
+		<data>
+		bed4E3DQc0fDVV600XTnh4WT1zA=
+		</data>
+		<key>flutter_assets/assets/etricks_2.jpg</key>
+		<data>
+		iL1PTAfMhtwABt0Qx+sevSYrLQQ=
+		</data>
 		<key>flutter_assets/assets/fishing.jpg</key>
 		<data>
 		CrzSoy7Ko4mnNrWyhBltdziK4Js=
@@ -36,9 +48,17 @@
 		<data>
 		t5dFikPl9vtZpNIVPprUe03kjYw=
 		</data>
+		<key>flutter_assets/assets/pic_4.jpg</key>
+		<data>
+		en9esDxvWe+hb93IUZ9P+T/LqlQ=
+		</data>
 		<key>flutter_assets/assets/profil.jpeg</key>
 		<data>
 		0Z6C5kU1nVzvIRaJR9cPR+1AF2U=
+		</data>
+		<key>flutter_assets/assets/virtual_coach.jpeg</key>
+		<data>
+		JLW/p5h90Qq7UJuiqH3AP/9t5Nw=
 		</data>
 		<key>flutter_assets/fonts/MaterialIcons-Regular.ttf</key>
 		<data>
@@ -50,7 +70,7 @@
 		</data>
 		<key>flutter_assets/kernel_blob.bin</key>
 		<data>
-		QLogz3NHfN9DGPzkCkr/SVJTTUQ=
+		vDyvJB4Vm3YmcmLy86l2glFoAwk=
 		</data>
 		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
 		<data>
@@ -67,11 +87,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			fiMCTgH/dq/YxwdoESo6WhxDVv0=
+			FdVysm1SH/bAbFGzlfL8hz6hVic=
 			</data>
 			<key>hash2</key>
 			<data>
-			sf7KbUsDxnzuEJv4hNoWOEr7bABIjkLsLqecIRJ5tfQ=
+			mrujbhMr5S8XncHb8y2C/ZKgUwe36NJ79Dg7jvMD2XM=
 			</data>
 		</dict>
 		<key>flutter_assets/FontManifest.json</key>
@@ -107,6 +127,39 @@
 			A3I27Uv1ioX2cHTBZdMIJg/WvgHIbX30556hbrJz+MU=
 			</data>
 		</dict>
+		<key>flutter_assets/assets/esport.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			2pCZ27bnOZl4vKJaERBE5KG1M/4=
+			</data>
+			<key>hash2</key>
+			<data>
+			8TaBzKRTG9mmLHp46N4ffHume0ntq47AixSgBSTz6HM=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/etricks.jpg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			bed4E3DQc0fDVV600XTnh4WT1zA=
+			</data>
+			<key>hash2</key>
+			<data>
+			DMb7ltduJyRqOx4Kh3W/ONj5OYwgBowzF7XH9EZFUAU=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/etricks_2.jpg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			iL1PTAfMhtwABt0Qx+sevSYrLQQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			Ru+uis2ETc/RStoPUOEkQa15c4V9A838Hh60ziUq+dI=
+			</data>
+		</dict>
 		<key>flutter_assets/assets/fishing.jpg</key>
 		<dict>
 			<key>hash</key>
@@ -140,6 +193,17 @@
 			DRY3faES5gJ6H/H8ZCAszS41IhFEuSVZ8+qVFt0soDk=
 			</data>
 		</dict>
+		<key>flutter_assets/assets/pic_4.jpg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			en9esDxvWe+hb93IUZ9P+T/LqlQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			nBSDCVSOTNmREiI6PXSVmlruxZYSZGIxnYT/MPLF2JE=
+			</data>
+		</dict>
 		<key>flutter_assets/assets/profil.jpeg</key>
 		<dict>
 			<key>hash</key>
@@ -149,6 +213,17 @@
 			<key>hash2</key>
 			<data>
 			jTeAmW1XH0021g5EI7ud16ujrKmLtYQicrXlTaHnwQc=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/virtual_coach.jpeg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			JLW/p5h90Qq7UJuiqH3AP/9t5Nw=
+			</data>
+			<key>hash2</key>
+			<data>
+			uy1A+ergT+ygnOxL2045wpTEkUOoeSROqk8TS3vqIfs=
 			</data>
 		</dict>
 		<key>flutter_assets/fonts/MaterialIcons-Regular.ttf</key>
@@ -177,11 +252,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			QLogz3NHfN9DGPzkCkr/SVJTTUQ=
+			vDyvJB4Vm3YmcmLy86l2glFoAwk=
 			</data>
 			<key>hash2</key>
 			<data>
-			thvYQjk7cTwfrXFBUcmmqoKUadpovv/8tFgH67ipfck=
+			IjBi14wUfmSCcJBSBhtmdIk2jJP7Mf4CETrszD5op5Q=
 			</data>
 		</dict>
 		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
