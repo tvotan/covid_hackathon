@@ -14,7 +14,7 @@ class _DetailPageState extends State<DetailPage> {
         children: [
           Container(
             height: MediaQuery.of(context).size.height,
-            color: Color(0xFFFE7050),
+            color: Color(0xFFD30029),
           ),
           Positioned(
             bottom: 22.0,
@@ -25,11 +25,12 @@ class _DetailPageState extends State<DetailPage> {
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: <Widget>[
-                    Icon(Icons.arrow_forward_ios, color: Colors.white.withOpacity(0.3), size: 11.0),
-                    Icon(Icons.arrow_forward_ios, color: Colors.white.withOpacity(0.5), size: 12.0),
-                    Icon(Icons.arrow_forward_ios, color: Colors.white.withOpacity(0.7), size: 13.0),
-                    Icon(Icons.arrow_forward_ios, color: Colors.white.withOpacity(0.9), size: 14.0),
-                    RotatedBox(child: Icon(Icons.local_airport, color: Colors.white), quarterTurns: 1),
+                    //Icon(Icons.photo_camera, color: Colors.white.withOpacity(0.3), size: 11.0),
+                    //Icon(Icons.arrow_forward_ios, color: Colors.white.withOpacity(0.5), size: 12.0),
+                    //Icon(Icons.arrow_forward_ios, color: Colors.white.withOpacity(0.7), size: 13.0),
+                    //Icon(Icons.arrow_forward_ios, color: Colors.white.withOpacity(0.9), size: 14.0),
+                    //RotatedBox(child: Icon(Icons.photo_camera, color: Colors.white), quarterTurns: 1),
+                    Icon(Icons.photo_camera, color: Colors.white, size: 50.0)
                   ],
                 ),
               )
@@ -39,7 +40,7 @@ class _DetailPageState extends State<DetailPage> {
             height: MediaQuery.of(context).size.height - 65.0,
             decoration: BoxDecoration(
               borderRadius: BorderRadius.only(bottomLeft: Radius.circular(35.0), bottomRight: Radius.circular(35.0)),
-              color: Colors.white
+              color: Color(0xFFD30029)
             ),
           ),
           Container(
@@ -47,13 +48,13 @@ class _DetailPageState extends State<DetailPage> {
             decoration: BoxDecoration(
               borderRadius: BorderRadius.only(bottomLeft: Radius.circular(35.0), bottomRight: Radius.circular(35.0)),
               image: DecorationImage(
-                image: AssetImage('assets/fishing.jpg'),
+                image: AssetImage('assets/coach.png'),
                 fit: BoxFit.cover
               )
             ),
           ),
           Positioned(
-            top: 400.0,
+            top: 450.0,
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: <Widget>[
@@ -69,12 +70,12 @@ class _DetailPageState extends State<DetailPage> {
                           children: <Widget>[
                             Row(
                               children: <Widget>[
-                                Icon(Icons.location_on, size: 12.0, color: Colors.grey),
-                                Text('Asia, Myanmar',
+                                Icon(Icons.location_on, size: 12.0, color: Colors.white),
+                                Text('Deutschland, Stuttgart',
                                 style: TextStyle(
                                   fontFamily: 'Opensans',
                                   fontSize: 12.0,
-                                  color: Colors.grey
+                                  color: Colors.white
                                 ),
                                 )
                               ],
@@ -82,10 +83,11 @@ class _DetailPageState extends State<DetailPage> {
                             SizedBox(
                               height: 7.0,
                             ),
-                            Text('Myanmar',
+                            Text('Brainkinetik',
                             style: TextStyle(
                               fontFamily: 'Opensans',
                               fontSize: 27.0,
+                              color: Colors.white,
                               fontWeight: FontWeight.w600
                             )
                             )
@@ -101,7 +103,7 @@ class _DetailPageState extends State<DetailPage> {
                           child: Column(
                             mainAxisAlignment: MainAxisAlignment.end,
                             children: <Widget>[
-                              Icon(Icons.favorite_border, color: Colors.black, size: 20.0),
+                              Icon(Icons.play_circle_outline, color: Colors.yellow, size: 50.0),
                               SizedBox(height: 7.0)
                             ],
                           ),
@@ -111,14 +113,14 @@ class _DetailPageState extends State<DetailPage> {
                   ),
                 ),
                 Padding(
-                  padding: const EdgeInsets.only(left: 15.0, top: 15.0),
+                  padding: const EdgeInsets.only(left: 25.0, top: 15.0),
                   child: Row(
                   children: <Widget>[
-                    Text('Recommendation',
+                    Text('Einsteiger',
                         style: TextStyle(
                             fontFamily: 'Opensans',
                             fontSize: 15.0,
-                            color: Color(0xFF6A6A6A),
+                            color: Colors.yellow,
                             fontWeight: FontWeight.w600)),
                     SizedBox(width: 25.0),
                     Stack(
@@ -140,7 +142,7 @@ class _DetailPageState extends State<DetailPage> {
                             width: 40.0,
                             decoration: BoxDecoration(
                                 borderRadius: BorderRadius.circular(20.0),
-                                color: Color(0xFFFE7050)),
+                                color: Color(0xFFD30029)),
                             child: Center(
                               child: Text('+28',
                                   style: TextStyle(
@@ -154,20 +156,20 @@ class _DetailPageState extends State<DetailPage> {
                     Text(
                     'Mehr',
                     style:
-                        TextStyle(color: Color(0xFF6A6A6A), fontFamily: 'Opensans', fontWeight: FontWeight.w600),
+                        TextStyle(color: Colors.white, fontFamily: 'Opensans', fontWeight: FontWeight.w600),
                   ),
                   SizedBox(width: 7.0),
-                  Icon(Icons.arrow_drop_down, color: Color(0xFF6A6A6A), size: 25.0)
+                  Icon(Icons.arrow_drop_down, color: Colors.white, size: 25.0)
                   ],
               ),
                 ),
                 Padding(
-                  padding: EdgeInsets.only(top: 15.0, left: 15.0),
+                  padding: EdgeInsets.only(top: 70.0, left: 50.0),
                   child: Container(
-                    width: 250.0,
-                    child: Text('Officially the Republic of the Union of Myanmar and also known as Burma, is a country in Southeast Asia',
+                    width: 300.0,
+                    child: Text('Das Prinzip ist einfach: Durch merkwürdige Körperübungen werden auf natürliche und Art und Weise neue Verbindungen, sogenannte Synapsen im Gehirn angelegt. Je komplexer die Übung, desto komplexer die entsprechende Verbindung.',
                     style:
-                        TextStyle(color: Color(0xFF6A6A6A), fontFamily: 'Opensans', fontWeight: FontWeight.w300)
+                        TextStyle(color: Colors.white, fontFamily: 'Opensans', fontSize: 16, fontWeight: FontWeight.w300)
                     ),
                   )
                 )
@@ -183,7 +185,7 @@ class _DetailPageState extends State<DetailPage> {
                 children: <Widget>[
                   Row(
                   children: <Widget>[
-                    Icon(Icons.arrow_back_ios, color: Colors.white, size: 15.0),
+                    Icon(Icons.arrow_back_ios, color: Colors.black, size: 15.0),
                     SizedBox(width: 20.0),
                     Container(
                       height: 40.0,
