@@ -47,17 +47,17 @@ class _MyHomePageState extends State<MyHomePage> {
                   ),
                   Container(
                     padding: EdgeInsets.fromLTRB(16.0, 190.0, 0.0, 0.0),
-                    child: Text('freund',
+                    child: Text('freunde',
                         style: TextStyle(
                             fontSize: 50.0, fontWeight: FontWeight.bold)),
                   ),
                   Container(
-                    padding: EdgeInsets.fromLTRB(175.0, 170.0, 0.0, 0.0),
+                    padding: EdgeInsets.fromLTRB(200.0, 170.0, 0.0, 0.0),
                     child: Text('.',
                         style: TextStyle(
                             fontSize: 70.0,
                             fontWeight: FontWeight.bold,
-                            color: Colors.red)),
+                            color: Color(0xFFD30029))),
                   ),
                 ],
               ),
@@ -70,7 +70,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       decoration: InputDecoration(
                           labelText: 'EMAIL',
                           labelStyle: TextStyle(
-                              fontFamily: 'Montserrat',
+                              fontFamily: 'Opensans',
                               fontWeight: FontWeight.bold,
                               color: Colors.grey),
                           focusedBorder: UnderlineInputBorder(
@@ -81,7 +81,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       decoration: InputDecoration(
                           labelText: 'PASSWORT',
                           labelStyle: TextStyle(
-                              fontFamily: 'Montserrat',
+                              fontFamily: 'Opensans',
                               fontWeight: FontWeight.bold,
                               color: Colors.grey),
                           focusedBorder: UnderlineInputBorder(
@@ -96,9 +96,9 @@ class _MyHomePageState extends State<MyHomePage> {
                         child: Text(
                           'Passwort vergessen',
                           style: TextStyle(
-                              color: Colors.red,
+                              color: Color(0xFFD30029),
                               fontWeight: FontWeight.bold,
-                              fontFamily: 'Montserrat',
+                              fontFamily: 'Opensans',
                               decoration: TextDecoration.underline),
                         ),
                       ),
@@ -109,7 +109,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       child: Material(
                         borderRadius: BorderRadius.circular(20.0),
                         shadowColor: Colors.redAccent,
-                        color: Colors.red,
+                        color: Color(0xFFD30029),
                         elevation: 7.0,
                         child: GestureDetector(
                           onTap: () {},
@@ -119,7 +119,7 @@ class _MyHomePageState extends State<MyHomePage> {
                               style: TextStyle(
                                   color: Colors.white,
                                   fontWeight: FontWeight.bold,
-                                  fontFamily: 'Montserrat'),
+                                  fontFamily: 'Opensans'),
                             ),
                           ),
                         ),
@@ -149,7 +149,7 @@ class _MyHomePageState extends State<MyHomePage> {
                               child: Text('Einloggen mit Facebook',
                                   style: TextStyle(
                                       fontWeight: FontWeight.bold,
-                                      fontFamily: 'Montserrat')),
+                                      fontFamily: 'Opensans')),
                             )
                           ],
                         ),
@@ -162,8 +162,8 @@ class _MyHomePageState extends State<MyHomePage> {
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
                 Text(
-                  'Neu bei W(e)Support ?',
-                  style: TextStyle(fontFamily: 'Montserrat'),
+                  'Neu bei WeSupport ?',
+                  style: TextStyle(fontFamily: 'Opensans'),
                 ),
                 SizedBox(width: 5.0),
                 InkWell(
@@ -173,8 +173,8 @@ class _MyHomePageState extends State<MyHomePage> {
                   child: Text(
                     'Registrieren',
                     style: TextStyle(
-                        color: Colors.red,
-                        fontFamily: 'Montserrat',
+                        color: Color(0xFFD30029),
+                        fontFamily: 'Opensans',
                         fontWeight: FontWeight.bold,
                         decoration: TextDecoration.underline),
                   ),
